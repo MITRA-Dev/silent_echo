@@ -1,0 +1,19 @@
+venv
+# .env
+.env
+# Python cache files
+__pycache__/
+*.py[cod]
+# IPython cache files
+.ipynb_checkpoints/
+# PyCharm cache files
+.idea/
+# Visual
+# Studio Code cache files
+.vscode/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+
+

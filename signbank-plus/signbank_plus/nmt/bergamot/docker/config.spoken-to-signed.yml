@@ -1,0 +1,81 @@
+experiment:
+  name: spoken_to_signed_bpe7
+  src: spoken
+  trg: signed
+  spm-vocab-size: 8000
+  spm-user-defined-symbols: "$ysl,$pks,$ko,$mdl,$isr,$bzs,$slf,$gr,$ps,$rsl,$xki,$hi,$bvl,$afg,$ncs,$ukl,$sl,$csg,$nzs,$psr,$nsp,$vsl,$isg,$fil,$psc,$hu,$sk,$ca,$sls,$nsi,$vgt,$bfi,$ru,$tr,$tse,$gn,$tsq,$fr,$ms,$eo,$prl,$ase,$haf,$pl,$ar,$zh-TW,$de,$uk,$asf,$ssp,$mt,$ise,$vn,$zh,$esn,$th,$es,$pso,$mfs,$sw,$fcs,$asq,$ur,$ins,$is,$gss,$sfs,$xml,$csl,$sv,$cs,$en,$fi,$tsm,$pt,$sqk,$fse,$dsl,$dse,$gsg,$ro,$ssr,$icl,$jos,$bqn,$ne,$nl,$ugy,$tss,$bg,$ja,$,$pys,$aed,$it,$lws,$rms,$sq,$nsl,$sdl,$fsl,$zh-CN,$am,$no,$kvk,$ht,$hds,$sgg,$esl,$eth,$csc,$sfb,$csn,$da,$swl,$jsl,$svk,$hsh,$mw,$psp,$cse,$he"
+
+  teacher-ensemble: 2
+  # path to a pretrained backward model (optional)
+  backward-model: ""
+  # path to a pretrained vocabulary (optional)
+  vocab: ""
+
+  # limits per downloaded dataset
+  mono-max-sentences-src: 100000000
+  mono-max-sentences-trg: 20000000
+  # split corpus to parallelize translation
+  split-chunks: 10
+  # vocab training sample
+  spm-sample-size: 10000000
+
+  best-model: chrf
+
+  use-opuscleaner: false
+  bicleaner:
+    default-threshold: 0  # There is no bicleaner support for "spoken" and "signed". TODO: train such a cleaner?
+    dataset-thresholds: {}
+
+
+marian-args:
+  training-backward:
+    after: 30e
+
+    valid-max-length: 512
+    max-length: 512
+
+  decoding-backward:
+    # 12 Gb GPU, s2s model
+    mini-batch-words: 2000
+    beam-size: 12
+
+    max-length: 512
+
+  decoding-teacher:
+    mini-batch-words: 1000
+
+    max-length: 512
+
+  training-teacher-base:
+    valid-max-length: 512
+    max-length: 512
+
+  training-teacher-finetuned:
+    valid-max-length: 512
+    max-length: 512
+
+  training-student:
+    valid-max-length: 512
+    max-length: 512
+
+  training-student-finetuned:
+    valid-max-length: 512
+    max-length: 512
+
+datasets:
+  # parallel training corpus
+  train:
+    - custom-corpus_/corpora/parallel/cleaned/train
+    - custom-corpus_/corpora/parallel/cleaned/dev
+    - custom-corpus_/corpora/parallel/more/train
+  devtest:
+    - custom-corpus_/corpora/parallel/test/all
+  test:
+    - custom-corpus_/corpora/parallel/test/all
+  # monolingual datasets (ex. paracrawl-mono_paracrawl8, commoncrawl_wmt16, news-crawl_news.2020)
+  # to be translated by the teacher model
+  mono-src:
+    - custom-mono_/corpora/mono/words/mono
+  # to be translated by the backward model to augment teacher corpus with back-translations
+  mono-trg:
+    - custom-mono_/corpora/mono/signs/mono
