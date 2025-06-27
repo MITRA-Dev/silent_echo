@@ -1,0 +1,31 @@
+# Python virtual environment
+venv/
+.env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit-specific
+.streamlit/
+*.log
+
+# Common IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Linux-specific
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+# Other temporary files
+*.bak
+*.tmp
+
+silent_echo_frontend/recordings/
+silent_echo_frontend/.streamlit/
+silent_echo_frontend/.pytest_cache/
