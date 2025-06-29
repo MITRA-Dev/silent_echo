@@ -1,0 +1,107 @@
+Collecting gradio
+  Downloading gradio-5.35.0-py3-none-any.whl (54.3 MB)
+     ---------------------------------------- 54.3/54.3 MB 1.3 MB/s eta 0:00:00
+Collecting aiofiles<25.0,>=22.0
+  Downloading aiofiles-24.1.0-py3-none-any.whl (15 kB)
+Collecting anyio<5.0,>=3.0
+  Downloading anyio-4.9.0-py3-none-any.whl (100 kB)
+     -------------------------------------- 100.9/100.9 kB 1.2 MB/s eta 0:00:00
+Collecting fastapi<1.0,>=0.115.2
+  Downloading fastapi-0.115.14-py3-none-any.whl (95 kB)
+     ---------------------------------------- 95.5/95.5 kB 1.1 MB/s eta 0:00:00
+Collecting ffmpy
+  Downloading ffmpy-0.6.0-py3-none-any.whl (5.5 kB)
+Collecting gradio-client==1.10.4
+  Downloading gradio_client-1.10.4-py3-none-any.whl (323 kB)
+     -------------------------------------- 323.9/323.9 kB 1.4 MB/s eta 0:00:00
+Collecting groovy~=0.1
+  Downloading groovy-0.1.2-py3-none-any.whl (14 kB)
+Collecting httpx>=0.24.1
+  Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+     -------------------------------------- 73.5/73.5 kB 811.2 kB/s eta 0:00:00
+Requirement already satisfied: huggingface-hub>=0.28.1 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from gradio) (0.33.1)
+Requirement already satisfied: jinja2<4.0 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from gradio) (3.1.6)
+Requirement already satisfied: markupsafe<4.0,>=2.0 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from gradio) (3.0.2)
+Requirement already satisfied: numpy<3.0,>=1.0 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from gradio) (2.3.1)
+Collecting orjson~=3.0
+  Downloading orjson-3.10.18-cp311-cp311-win_amd64.whl (134 kB)
+     -------------------------------------- 134.6/134.6 kB 2.0 MB/s eta 0:00:00
+Requirement already satisfied: packaging in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from gradio) (25.0)
+Requirement already satisfied: pandas<3.0,>=1.0 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from gradio) (2.3.0)
+Requirement already satisfied: pillow<12.0,>=8.0 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from gradio) (11.2.1)
+Collecting pydantic<2.12,>=2.0
+  Downloading pydantic-2.11.7-py3-none-any.whl (444 kB)
+     -------------------------------------- 444.8/444.8 kB 1.6 MB/s eta 0:00:00
+Collecting pydub
+  Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Collecting python-multipart>=0.0.18
+  Downloading python_multipart-0.0.20-py3-none-any.whl (24 kB)
+Requirement already satisfied: pyyaml<7.0,>=5.0 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from gradio) (6.0.2)
+Collecting ruff>=0.9.3
+  Downloading ruff-0.12.1-py3-none-win_amd64.whl (11.5 MB)
+     ---------------------------------------- 11.5/11.5 MB 1.5 MB/s eta 0:00:00
+Collecting safehttpx<0.2.0,>=0.1.6
+  Downloading safehttpx-0.1.6-py3-none-any.whl (8.7 kB)
+Collecting semantic-version~=2.0
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Collecting starlette<1.0,>=0.40.0
+  Downloading starlette-0.47.1-py3-none-any.whl (72 kB)
+     ---------------------------------------- 72.7/72.7 kB 1.3 MB/s eta 0:00:00
+Collecting tomlkit<0.14.0,>=0.12.0
+  Downloading tomlkit-0.13.3-py3-none-any.whl (38 kB)
+Collecting typer<1.0,>=0.12
+  Downloading typer-0.16.0-py3-none-any.whl (46 kB)
+     -------------------------------------- 46.3/46.3 kB 572.6 kB/s eta 0:00:00
+Requirement already satisfied: typing-extensions~=4.0 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from gradio) (4.14.0)
+Collecting uvicorn>=0.14.0
+  Downloading uvicorn-0.35.0-py3-none-any.whl (66 kB)
+     ---------------------------------------- 66.4/66.4 kB 1.2 MB/s eta 0:00:00
+Requirement already satisfied: fsspec in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from gradio-client==1.10.4->gradio) (2025.5.1)
+Collecting websockets<16.0,>=10.0
+  Downloading websockets-15.0.1-cp311-cp311-win_amd64.whl (176 kB)
+     ------------------------------------ 176.8/176.8 kB 410.3 kB/s eta 0:00:00
+Requirement already satisfied: idna>=2.8 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from anyio<5.0,>=3.0->gradio) (3.10)
+Collecting sniffio>=1.1
+  Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Collecting starlette<1.0,>=0.40.0
+  Downloading starlette-0.46.2-py3-none-any.whl (72 kB)
+     -------------------------------------- 72.0/72.0 kB 657.4 kB/s eta 0:00:00
+Requirement already satisfied: certifi in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from httpx>=0.24.1->gradio) (2025.6.15)
+Collecting httpcore==1.*
+  Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+     -------------------------------------- 78.8/78.8 kB 729.2 kB/s eta 0:00:00
+Collecting h11>=0.16
+  Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Requirement already satisfied: filelock in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from huggingface-hub>=0.28.1->gradio) (3.18.0)
+Requirement already satisfied: requests in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from huggingface-hub>=0.28.1->gradio) (2.32.4)
+Requirement already satisfied: tqdm>=4.42.1 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from huggingface-hub>=0.28.1->gradio) (4.67.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from pandas<3.0,>=1.0->gradio) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from pandas<3.0,>=1.0->gradio) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from pandas<3.0,>=1.0->gradio) (2025.2)
+Collecting annotated-types>=0.6.0
+  Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.33.2
+  Downloading pydantic_core-2.33.2-cp311-cp311-win_amd64.whl (2.0 MB)
+     ---------------------------------------- 2.0/2.0 MB 1.2 MB/s eta 0:00:00
+Collecting typing-inspection>=0.4.0
+  Downloading typing_inspection-0.4.1-py3-none-any.whl (14 kB)
+Requirement already satisfied: click>=8.0.0 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from typer<1.0,>=0.12->gradio) (8.1.8)
+Collecting shellingham>=1.3.0
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting rich>=10.11.0
+  Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+     -------------------------------------- 243.2/243.2 kB 1.1 MB/s eta 0:00:00
+Requirement already satisfied: colorama in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from click>=8.0.0->typer<1.0,>=0.12->gradio) (0.4.6)
+Requirement already satisfied: six>=1.5 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from python-dateutil>=2.8.2->pandas<3.0,>=1.0->gradio) (1.17.0)
+Collecting markdown-it-py>=2.2.0
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+     -------------------------------------- 87.5/87.5 kB 990.9 kB/s eta 0:00:00
+Collecting pygments<3.0.0,>=2.13.0
+  Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+     ---------------------------------------- 1.2/1.2 MB 1.3 MB/s eta 0:00:00
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from requests->huggingface-hub>=0.28.1->gradio) (3.4.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\rober\documents\work\silent_echo\.venv311\lib\site-packages (from requests->huggingface-hub>=0.28.1->gradio) (2.5.0)
+Collecting mdurl~=0.1
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pydub, websockets, typing-inspection, tomlkit, sniffio, shellingham, semantic-version, ruff, python-multipart, pygments, pydantic-core, orjson, mdurl, h11, groovy, ffmpy, annotated-types, aiofiles, uvicorn, pydantic, markdown-it-py, httpcore, anyio, starlette, rich, httpx, typer, safehttpx, gradio-client, fastapi, gradio
+Successfully installed aiofiles-24.1.0 annotated-types-0.7.0 anyio-4.9.0 fastapi-0.115.14 ffmpy-0.6.0 gradio-5.35.0 gradio-client-1.10.4 groovy-0.1.2 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 markdown-it-py-3.0.0 mdurl-0.1.2 orjson-3.10.18 pydantic-2.11.7 pydantic-core-2.33.2 pydub-0.25.1 pygments-2.19.2 python-multipart-0.0.20 rich-14.0.0 ruff-0.12.1 safehttpx-0.1.6 semantic-version-2.10.0 shellingham-1.5.4 sniffio-1.3.1 starlette-0.46.2 tomlkit-0.13.3 typer-0.16.0 typing-inspection-0.4.1 uvicorn-0.35.0 websockets-15.0.1

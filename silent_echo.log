@@ -1,0 +1,137 @@
+2025-06-29 06:17:02,645 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:17:03,996 - INFO - Microphone setup successful with default device
+2025-06-29 06:17:03,998 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:17:04,044 - INFO - Pygame audio initialized successfully
+2025-06-29 06:17:04,283 - INFO - Loaded 204399 sign language examples
+2025-06-29 06:17:22,083 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-06-29 06:17:47,691 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-06-29 06:21:10,952 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:21:12,305 - INFO - Microphone setup successful with default device
+2025-06-29 06:21:12,307 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:21:12,350 - INFO - Pygame audio initialized successfully
+2025-06-29 06:21:12,615 - INFO - Loaded 204399 sign language examples
+2025-06-29 06:21:32,659 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-06-29 06:21:51,524 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-06-29 06:22:14,811 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-06-29 06:22:35,539 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-06-29 06:22:55,652 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:22:56,367 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-06-29 06:22:57,593 - INFO - Microphone setup successful with default device
+2025-06-29 06:22:57,596 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:22:57,596 - INFO - Pygame audio initialized successfully
+2025-06-29 06:22:57,851 - INFO - Loaded 204399 sign language examples
+2025-06-29 06:23:14,943 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-06-29 06:23:17,148 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-06-29 06:23:43,360 - ERROR - Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-06-29 06:23:48,809 - ERROR - Failed to grab frame
+2025-06-29 06:31:43,626 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:31:43,626 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:32:10,436 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:32:10,436 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:32:10,437 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:34:44,973 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:34:44,974 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:34:44,974 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:34:44,974 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:37:52,714 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:37:52,951 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:37:53,000 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:37:53,382 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:37:53,804 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:37:54,091 - INFO - Microphone setup successful with default device
+2025-06-29 06:37:54,094 - INFO - Microphone setup successful with default device
+2025-06-29 06:37:54,094 - INFO - Microphone setup successful with default device
+2025-06-29 06:37:54,097 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:37:54,281 - INFO - Pygame audio initialized successfully
+2025-06-29 06:37:54,282 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:37:54,283 - INFO - Pygame audio initialized successfully
+2025-06-29 06:37:54,284 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:37:54,284 - INFO - Pygame audio initialized successfully
+2025-06-29 06:37:54,546 - INFO - Microphone setup successful with default device
+2025-06-29 06:37:54,752 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:37:54,755 - INFO - Pygame audio initialized successfully
+2025-06-29 06:37:54,916 - INFO - Loaded 204399 sign language examples
+2025-06-29 06:37:54,918 - INFO - Loaded 204399 sign language examples
+2025-06-29 06:37:54,918 - INFO - Loaded 204399 sign language examples
+2025-06-29 06:37:55,151 - INFO - Microphone setup successful with default device
+2025-06-29 06:37:55,168 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:37:55,183 - INFO - Pygame audio initialized successfully
+2025-06-29 06:37:55,213 - INFO - Loaded 204399 sign language examples
+2025-06-29 06:37:55,484 - INFO - Loaded 204399 sign language examples
+2025-06-29 06:46:33,328 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:46:34,655 - INFO - Microphone setup successful with default device
+2025-06-29 06:46:34,657 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:46:34,900 - INFO - Pygame audio initialized successfully
+2025-06-29 06:46:35,191 - INFO - Loaded 204399 sign language examples
+2025-06-29 06:46:59,149 - INFO - Sending request to Ollama: numbers...
+2025-06-29 06:48:24,156 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:48:25,477 - INFO - Microphone setup successful with default device
+2025-06-29 06:48:25,479 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:48:25,644 - INFO - Pygame audio initialized successfully
+2025-06-29 06:48:25,958 - INFO - Loaded 204399 sign language examples
+2025-06-29 06:48:47,895 - INFO - Sending request to Ollama: Backpage Houston...
+2025-06-29 06:49:20,872 - INFO - Sending request to Ollama: guinea pig missionary...
+2025-06-29 06:50:52,911 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 06:50:54,240 - INFO - Microphone setup successful with default device
+2025-06-29 06:50:54,240 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 06:50:54,407 - INFO - Pygame audio initialized successfully
+2025-06-29 06:50:54,708 - INFO - Loaded 204399 sign language examples
+2025-06-29 07:12:58,904 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 07:13:00,220 - INFO - Microphone setup successful with default device
+2025-06-29 07:13:00,223 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 07:13:00,514 - INFO - Pygame audio initialized successfully
+2025-06-29 07:13:00,622 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 07:13:00,863 - INFO - Loaded 204399 sign language examples
+2025-06-29 07:13:01,902 - INFO - Microphone setup successful with default device
+2025-06-29 07:13:01,904 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 07:13:01,905 - INFO - Pygame audio initialized successfully
+2025-06-29 07:13:02,243 - INFO - Loaded 204399 sign language examples
+2025-06-29 07:13:07,006 - INFO - Trying camera index 0 with backend 700
+2025-06-29 07:13:08,401 - INFO - Trying camera index 0 with backend 700
+2025-06-29 07:55:35,037 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 07:55:36,381 - INFO - Microphone setup successful with default device
+2025-06-29 07:55:36,382 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 07:55:36,586 - INFO - Pygame audio initialized successfully
+2025-06-29 07:55:36,904 - INFO - Loaded 204399 sign language examples
+2025-06-29 07:55:43,011 - INFO - Trying camera index 0 with Media Foundation
+2025-06-29 07:55:43,995 - INFO - Successfully opened camera 0 with Media Foundation
+2025-06-29 08:04:03,571 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 08:04:04,861 - INFO - Microphone setup successful with default device
+2025-06-29 08:04:04,863 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 08:04:05,048 - INFO - Pygame audio initialized successfully
+2025-06-29 08:04:05,278 - INFO - Loaded 204399 sign language examples
+2025-06-29 08:04:11,461 - INFO - Trying camera index 0 with Media Foundation
+2025-06-29 08:04:12,307 - INFO - Successfully opened camera 0 with Media Foundation
+2025-06-29 08:04:26,569 - INFO - Sending request to Ollama: if you have no voice...
+2025-06-29 08:04:43,606 - ERROR - Ollama request timed out
+2025-06-29 08:05:07,629 - INFO - Sending request to Ollama: bank account 15611...
+2025-06-29 08:17:16,851 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:16,954 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:17,057 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:17,160 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:17,265 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:17,369 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:17,471 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:17,576 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:17,705 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:17,812 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:17,918 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:18,026 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:18,129 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:18,236 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:18,345 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:18,453 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:18,558 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:18,663 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:18,768 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:18,873 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:18,976 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:19,082 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:17:19,187 - WARNING - Failed to grab frame, retrying...
+2025-06-29 08:18:32,181 - INFO - Initializing Silent Echo - AI Communication Assistant
+2025-06-29 08:18:33,494 - INFO - Microphone setup successful with default device
+2025-06-29 08:18:33,495 - INFO - MediaPipe not available, using OpenCV contour detection
+2025-06-29 08:18:33,692 - INFO - Pygame audio initialized successfully
+2025-06-29 08:18:33,978 - INFO - Loaded 204399 sign language examples
+2025-06-29 08:18:40,144 - INFO - Trying camera index 0 with Media Foundation
+2025-06-29 08:18:41,117 - INFO - Successfully opened camera 0 with Media Foundation

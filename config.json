@@ -1,0 +1,43 @@
+{
+    "ollama": {
+        "base_url": "http://localhost:11434",
+        "model_name": "granite3.3:8b",
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "max_tokens": 150
+    },
+    "audio": {
+        "timeout": 5.0,
+        "phrase_time_limit": 10.0,
+        "ambient_noise_duration": 1.0,
+        "sample_rate": 22050,
+        "channels": 2
+    },
+    "video": {
+        "min_contour_area": 5000,
+        "gesture_cooldown": 2.0,
+        "frame_rate": 30,
+        "camera_index": 0
+    },
+    "ai": {
+        "cache_size": 100,
+        "response_timeout": 10
+    },
+    "debug": {
+        "debug_mode": false,
+        "save_frames": false,
+        "log_level": "INFO",
+        "log_file": "silent_echo.log"
+    },
+    "gestures": {
+        "enabled_gestures": [
+            "Thumbs Up",
+            "Index Finger", 
+            "Peace Sign",
+            "Open Palm",
+            "Closed Fist",
+            "OK Sign"
+        ],
+        "confidence_threshold": 0.7
+    }
+} 
